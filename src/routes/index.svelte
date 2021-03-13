@@ -45,7 +45,7 @@
 </div>
 
 <div>
-	<input type="text" on:change={(e:any) => name = e.target.value } />
+	<input type="text" on:change={(e) => (name = e.target.value)} />
 	<button on:click={handleChange} value="CHANGE">Change</button>
 </div>
 
